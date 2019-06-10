@@ -1,0 +1,7 @@
+package com.rock.dao.impl;
+
+import com.rock.dao.IUserDao;
+
+public class IUserDaoimpl implements IUserDao{
+
+}

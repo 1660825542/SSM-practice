@@ -1,0 +1,45 @@
+
+3月 19, 2019 15:17:05.98 NEW SESSION
+3月 19, 2019 15:17:05.98 [5820:6076:0319/151705.985:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+3月 19, 2019 15:17:05.98 [5820:6076:0319/151705.985:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+3月 19, 2019 15:17:05.98 [5820:6076:0319/151705.985:ERROR:disk_cache.cc(169)] Unable to create cache
+3月 19, 2019 15:17:05.98 [5820:6076:0319/151705.985:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+3月 19, 2019 15:17:06.12 [5512:5952:0319/151706.125:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 19, 2019 15:17:06.19 已在现有的浏览器会话中创建新的窗口。
+3月 19, 2019 17:21:09.84 [5132:5600:0319/172109.845:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+
+3月 19, 2019 18:14:26.93 NEW SESSION
+3月 19, 2019 18:14:26.93 [4752:4284:0319/181426.921:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+
+3月 20, 2019 09:03:46.68 NEW SESSION
+3月 20, 2019 09:03:46.68 [4440:4476:0320/090346.685:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+
+3月 26, 2019 16:33:35.05 NEW SESSION
+3月 26, 2019 16:33:35.05 [6048:3748:0326/163335.056:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:02:27.90 [2644:5332:0327/090227.895:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:05:21.45 [5312:4188:0327/090521.449:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:25:50.66 [5252:3832:0327/092550.664:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:31:14.69 [1492:4632:0327/093114.690:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:31:43.57 [5648:2604:0327/093143.571:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:31:58.33 [392:5604:0327/093158.338:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:33:38.69 [1224:3288:0327/093338.693:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:33:54.42 [4480:4252:0327/093354.420:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:35:03.28 [5980:3232:0327/093503.284:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:35:07.62 [1452:6116:0327/093507.623:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:35:23.29 [4568:3576:0327/093523.297:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:35:59.89 [4936:4360:0327/093559.897:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:36:15.55 [3744:1320:0327/093615.551:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:55:25.05 [5840:5728:0327/095525.056:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:55:32.16 [5980:5084:0327/095532.167:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:58:19.33 [5368:4100:0327/095819.334:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:59:40.71 [5504:5540:0327/095940.713:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 09:59:44.52 [3596:5568:0327/095944.521:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:03:37.45 [3928:4892:0327/100337.454:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:08:30.33 [3508:824:0327/100830.330:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:08:35.85 [4404:5840:0327/100835.858:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:09:01.29 [2312:5496:0327/100901.291:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:15:01.08 [5788:388:0327/101501.081:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:15:09.07 [3284:3904:0327/101509.079:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:16:03.33 [3200:1340:0327/101603.331:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:16:06.79 [3952:5788:0327/101606.799:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3月 27, 2019 10:29:36.65 [4404:5188:0327/102936.650:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.

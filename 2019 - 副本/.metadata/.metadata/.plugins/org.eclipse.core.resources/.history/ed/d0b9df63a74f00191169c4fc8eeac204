@@ -1,0 +1,55 @@
+package com.rock.action;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.rock.entities.User;
+import com.rock.service.IUserService;
+import com.rock.service.impl.IUserServiceimpl;
+
+/**
+ * Servlet implementation class UserAction
+ */
+@WebServlet("/UserAction")
+public class UserAction extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    private IUserService ius=null;
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public UserAction() {
+        super();
+        ius=new IUserServiceimpl();
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String methon=request.getParameter("methon");
+		
+		if("login".equals(methon))
+		{
+			this.login(request, response);
+		}
+	}
+	protected void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+			User user=new User();
+			user.setUserid(request.getParameter("userid"));
+			user.setPassword(request.getParameter("password"));
+			user=ius.userlogin(user);
+			if(user==null)
+			{
+				System.out.println("1111");
+			}
+			else
+				System.out.println("222");
+			
+		}
+	
+
+}

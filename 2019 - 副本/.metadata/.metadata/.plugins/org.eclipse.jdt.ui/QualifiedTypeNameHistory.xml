@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="com.rock.dao.IUserDao"/>
+<fullyQualifiedTypeName name="com.rock.dao.impl.IUserDaoimpl"/>
+<fullyQualifiedTypeName name="com.rock.entities.User"/>
+<fullyQualifiedTypeName name="com.rock.service.IUserService"/>
+<fullyQualifiedTypeName name="com.rock.service.impl.IUserServiceimpl"/>
+<fullyQualifiedTypeName name="com.rock.dao.IEmployeeDao"/>
+<fullyQualifiedTypeName name="com.rock.service.IEmployeeService"/>
+<fullyQualifiedTypeName name="com.rock.service.impl.IEmployeeServiceimpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.rock.action.EmployeeAction"/>
+<fullyQualifiedTypeName name="com.rock.dao.impl.IEmployeeDaoimpl"/>
+<fullyQualifiedTypeName name="com.rock.util.JDBCUtil"/>
+<fullyQualifiedTypeName name="com.rock.entities.Employee"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

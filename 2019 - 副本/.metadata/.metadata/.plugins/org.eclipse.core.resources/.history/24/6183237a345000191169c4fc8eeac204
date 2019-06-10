@@ -1,0 +1,50 @@
+package com.rock.action;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.rock.entities.Employee;
+import com.rock.service.IEmployeeService;
+import com.rock.service.impl.IEmployeeServiceimpl;
+
+/**
+ * Servlet implementation class EmployeeAction
+ */
+@WebServlet("/EmployeeAction")
+public class EmployeeAction extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    IEmployeeService ies=null;
+   
+    public EmployeeAction() {
+        super();
+      ies=new IEmployeeServiceimpl();
+    }
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		String methon=request.getParameter("methon");
+		System.out.println(methon);
+		if("login".equals(methon))
+		{
+			System.out.println(methon);
+			this.empall(request, response);
+		}
+		
+		
+	}
+	protected void empall(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("emp");
+		List<Employee> empall=ies.empall();
+		request.setAttribute("emps", empall);
+		request.getRequestDispatcher("main.jsp").forward(request, response);
+
+	}
+
+}

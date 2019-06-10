@@ -1,0 +1,99 @@
+package first;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+import java.io.Reader;
+import java.io.Writer;
+import java.nio.CharBuffer;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.stream.IntStream;
+
+import javax.lang.model.util.SimpleAnnotationValueVisitor6;
+
+public class test {
+
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
+//		String s="D:/123.txt";
+//		String ss;
+//		File file=new File(s);
+////		
+////		System.out.println(file.list());
+////		System.out.println(file.getAbsolutePath());
+////		System.out.println(file.getCanonicalPath());
+////		System.out.println(file.hashCode());
+//		Reader  r=new FileReader(s);
+//		
+//		Writer w=new FileWriter("D:/456.txt");
+//		Writer w1=new FileWriter("D:/789.txt");
+////		int a=r.read();
+////		
+////		while(a!=-1)
+////		{
+////			try{
+////				//w.write(a);
+////				
+////				w.append((char)a);
+////			
+////			}catch (Exception e) {
+////				System.out.println("1111");
+////			}
+////			
+////			//System.out.print((char)a);
+////			a=r.read();
+////		
+////			
+////		}	
+//		
+//		char [] c=new char[1000];
+//		int b=r.read(c);
+//		w1.write(c)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+//		
+//		w1.flush();
+//		w.flush();
+//		w.close();
+////		System.out.println(r.toString());
+////		System.out.println((char)a);
+		
+		
+//		InputStream in=new FileInputStream(new File("D:/zui.zip"));
+//		OutputStream ou=new FileOutputStream(new File("D:/1.zip"));
+//		byte [] b=new byte[1024];
+//		int a=in.read(b);
+//		while(a!=-1)
+//		{ 
+//		
+//		ou.write(b);
+//		a=in.read(b);
+//		}
+//		ou.flush();
+//		ou.close();
+		
+//		ObjectOutputStream ob=new ObjectOutputStream(new FileOutputStream(new File("D:/1.sb")));
+//		ObjectInputStream in=new ObjectInputStream(new FileInputStream(new File("D:/1.sb")));
+//		ob.writeObject(new People());-+
+//		Object s=in.readObject();
+//		System.out.println(s);	
+		
+//		String s="123";
+//		String s1="123";
+//		System.out.println(s1==s);
+		//drawangle d=new drawangle();
+		//d.draw();
+
+
+		
+	}
+
+}

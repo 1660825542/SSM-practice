@@ -1,0 +1,33 @@
+package com.rock.dao.impl;
+
+import java.util.List;
+
+import com.rock.dao.IEmployeeDao;
+import com.rock.entities.Employee;
+import com.rock.util.JDBCUtil;
+
+public class IEmployeeDaoimpl implements IEmployeeDao{
+
+	private JDBCUtil jdbc=null;
+	public IEmployeeDaoimpl(){
+		jdbc=new JDBCUtil();
+	}
+	public List<Employee> empall() {
+		String sql="select * from emp";
+		List<Employee> empall=jdbc.queryAll(Employee.class, sql);
+		return empall;
+	}
+
+	@Override
+	public int updateemp(Employee e) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteemp(Employee e) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

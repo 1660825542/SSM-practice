@@ -1,0 +1,5 @@
+package com.rock.dao;
+
+public class IUserDao {
+
+}

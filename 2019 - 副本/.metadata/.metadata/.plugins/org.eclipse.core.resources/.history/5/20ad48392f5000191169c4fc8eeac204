@@ -1,0 +1,28 @@
+package com.rock.dao.impl;
+
+import java.util.List;
+
+import com.rock.dao.IEmployeeDao;
+import com.rock.entities.Employee;
+
+public class IEmployeeDaoimpl implements IEmployeeDao{
+
+	@Override
+	public List<Employee> empall() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int updateemp(Employee e) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteemp(Employee e) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

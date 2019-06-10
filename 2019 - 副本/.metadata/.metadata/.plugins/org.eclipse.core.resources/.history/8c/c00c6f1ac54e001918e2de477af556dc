@@ -1,0 +1,15 @@
+package com.rock.service;
+
+import com.rock.entities.Employee;
+
+import java.util.List;
+
+public interface IEmployeeService {
+    public List<Employee> allEmployees();
+
+    /**
+     * 删除员工信息根据员工编号
+     * @param empno
+     */
+    void deleteById(String empno);
+}

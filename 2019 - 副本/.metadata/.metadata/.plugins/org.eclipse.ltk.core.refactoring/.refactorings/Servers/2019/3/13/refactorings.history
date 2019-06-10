@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;javaee-trainner(1)&apos; to &apos;aaa1121&apos;&#x0D;&#x0A;- Original project: &apos;Servers&apos;&#x0D;&#x0A;- Destination element: &apos;aaa1121&apos;&#x0D;&#x0A;- Original element: &apos;javaee-trainner(1)&apos;" description="Copy folder" element1="javaee-trainner(1)" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1553494452618" target="/aaa1121" units="0" version="1.0"/>
+</session>

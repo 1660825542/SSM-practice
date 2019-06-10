@@ -1,0 +1,34 @@
+package com.rock.dao.daoimpl;
+
+import com.rock.dao.IEmployeeDao;
+import com.rock.entities.Employee;
+import com.rock.util.JDBCUtil;
+
+import java.util.List;
+
+/**
+ * @author :老张
+ * @version :1.0
+ * @Description :
+ * @Date :2019-03-22 09:38:18
+ */
+public class IEmployeeDaoImpl implements IEmployeeDao {
+    private  JDBCUtil util=null;
+
+    public IEmployeeDaoImpl() {
+        util=new JDBCUtil();
+    }
+
+    @Override
+    public List<Employee> allEmps() {
+        String sql="select a.*,b.dname from emp a left join dept b on a.deptno=b.deptno ";
+        List<Employee> all=util.queryAll(Employee.class,sql);
+        return all;
+    }
+
+    @Override
+    public void deleteById(String empno) {
+        String sql="delete from emp where empno=?";
+        util.runSql(sql,empno);
+    }
+}

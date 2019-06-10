@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="formse.js">
+
+</script>
+<fieldset>
+    <legend>登录</legend>
+    <form  action="T1"  onsubmit="return check()">
+        <div>
+            登录：<input type="text" name="uid"  id="uid" onblur="id1()" onfocus="id1();"/>
+            <span id="idx"></span>
+        </div>
+       <div>
+           密码：<input type="password" name="password" id="pwd" onfocus="pw1()" onblur="pw1()">
+           <span id="pwx"></span>
+       </div>
+        <div>性别：
+            <input type="radio" value="M" name="sex" checked="checked">男
+            <input type="radio" value="F" name="sex">女
+
+        </div>
+        <div>爱好：
+            <input type="checkbox" name="like" value="apple" checked="checked">苹果
+            <input type="checkbox" name="like" value="banana">香蕉
+            <input type="checkbox" name="like" value="orange">橙子
+            <input type="checkbox" name="like" value="friut">水果
+        </div>
+        <div>学位：
+            <select>
+                <option value="博士">博士</option>
+                <option value="硕士">硕士</option>
+                <option selected="selected" value="学士">学士</option>
+
+            </select>
+        </div>
+        <div>
+            <input type="file" style="height: 300px;width: 600px;" >
+        </div>
+        <div>
+            <input type="submit"  value="登录">
+            <input type="reset" value="重置">
+        </div>
+
+    </form>
+   
+</fieldset>
+
+<fieldset>
+	<legend>注册</legend>
+	<form action="T2">
+		<div>
+			<a href="TestAction">提交</a>
+			<input type="submit">
+		</div>
+	
+	</form>
+	
+</fieldset>
+</body>
+
+
+</html>
